@@ -5,4 +5,13 @@
     margin-top: 1rem;
     max-width: 30%;
     border-radius: 8px;
+    
+}
+h4{
+    margin-bottom: 0.5rem;
+    font-size: larger;
+    text-align: center;
+}
+p{
+    text-align: center;
 }

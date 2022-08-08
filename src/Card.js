@@ -2,14 +2,16 @@ import './Card.css';
 
 
 
-function Card(){
+function Card(props){
     return(
         <div className='card'>
-            <h4>John Doe</h4>
-            <p>johndoe</p>
-            <p>johndoe@gmail.com</p>
+            <img src={`https://robohash.org/${props.name}`} alt='...'/>
+            <h4>{props.name}</h4>
+            <p>{props.username}</p>
+            <p>{props.email}</p>
         </div>
+        
     )
 }
 
-export default Card
+export default Card;
