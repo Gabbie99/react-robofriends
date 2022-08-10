@@ -34,7 +34,7 @@ class App extends React.Component {
         <SearchBox updateSearchInput={this.updateSearchInput}/>
         <Cardlist clients={filteredRobots}/>
       </div>
-    );
+    );     
   }
 }
 
