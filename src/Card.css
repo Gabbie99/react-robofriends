@@ -1,10 +1,17 @@
 .card{
-    background-color: rgb(250, 224, 215);
+    background-color: rgb(198, 107, 231);
     padding: 1rem;
     margin: 0;
     margin-top: 1rem;
-    max-width: 30%;
-    border-radius: 8px;
+    width: 90%;
+    border-radius: 15px;
+    opacity:.9;
+
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 h4{

@@ -29,8 +29,8 @@ class App extends React.Component {
     console.log("Filtered Robots: ", filteredRobots);
 
     return (
-      <div className="">
-        <h1 style={{ textAlign: 'center' }}>Robofriends</h1>
+      <div className="back">
+        <h1 style={{ textAlign: 'center'}}>[G-kittens]</h1>
         <SearchBox updateSearchInput={this.updateSearchInput}/>
         <Cardlist clients={filteredRobots}/>
       </div>

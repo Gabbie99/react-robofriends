@@ -1,5 +1,6 @@
 import users from './users.json'
 import Card from './Card'
+import './Card.css'
 
 function CardList(props){
     console.log(props)

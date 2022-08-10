@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -40,4 +40,14 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+} */
+body{
+  margin: 0;  
+  background-color: lavender;
+}
+h1{
+  font-family: 'algerian';
+  font-weight: lighter;
+  margin-top: 50px;
+
 }

@@ -1,10 +1,15 @@
 input{
-    background-color: aquamarine;
+    background-color: rgb(233, 133, 178);
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(118, 21, 100, 0.24) 0px 3px 8px 4px;
+    
 }
 
 .input-container{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
