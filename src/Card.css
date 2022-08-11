@@ -6,13 +6,16 @@
     width: 90%;
     border-radius: 15px;
     opacity:.9;
-
+    transform: translateZ(0);
+    transition: transform .30s ease-out; 
 }
-.card-wrapper{
+.card:hover{
+    transform: scale(1.04);
+}
+.card-wraps{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 h4{
     margin-bottom: 0.5rem;

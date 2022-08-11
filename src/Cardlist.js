@@ -5,7 +5,7 @@ import './Card.css'
 function CardList(props){
     console.log(props)
     return(
-        <div className='card-wrapper'>
+        <div className='card-wraps'>
         {
           props.clients.map((item) => (
             <Card 
